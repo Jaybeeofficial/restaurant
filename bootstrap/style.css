@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Righteous", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-img{
+    height: 60px;
+}
+.nav-link {
+    color: black!important;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.nav-link.active {
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: rgb(79, 11, 11)!important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.card-service{
+    cursor: pointer;
+    
+}
+
+.card-service:hover{
+    color: white;
+     background-color: black !important;
+      transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-service i{
+    font-size: 3rem;
+}
+
+.card-numbers{
+    cursor: pointer;
+}
+
+.card-numbers:hover{
+    color: white;
+     background-color: black !important;
+      transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 69%;
+}
+
+.banner h1{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-top: 70px;
+    margin-left: 60px;
+}
+
+.change-content:after{
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: rgba(244, 158, 29, 0.926);
+}
+@keyframes changetext{
+    0%{content: "Cheese Burger";}
+    20%{content: "Chicken Burger";}
+    40%{content: "Beef Burger";}
+    60%{content: "Sandwich";}
+    80%{content: "Waffle Burger";}
+}
+
+.banner h2{
+    font-weight: bold;
+    color: rgba(244, 158, 29, 0.926);
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+.banner .btn1{
+    margin-left: 60px;
+    padding: 5px;
+    background-color: rgba(244, 158, 29, 0.926);
+    border: none;
+    border-radius: 5px;
+}
+
+.banner .btn1:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    color: white;
+    background-color:  rgb(79, 11, 11)!important;
+}
+
+
+.card-menu {
+    background-color: rgba(95, 51, 8, 0.921) !important;
+    border-radius: 20px;
+    margin: 20px 0;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.card-menu :hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-menu .card img {
+    width: 10rem;
+    height: 9rem;
+}
+
+
+
+.banner2{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/bicycle.png);
+    background-size: cover;
+    background-position: 70%;
+    margin-top: 50px;
+}
+
+.banner2 h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+
+.banner2 h2{
+    font-weight: bold;
+    color: rgba(95, 51, 8, 0.921) !important;
+    background-color: rgba(244, 158, 29, 0.926);
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.container-fluid-2{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/backgroundbb.jpg);
+    margin-top: 60px;
+}
+
+
+
+.form-group {
+    margin-top: 10px;
+}
+
+#footer{
+    background-color: black !important;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+#footer .footer-links i{
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+#footer .footer-links i:first-child{
+    padding-left: 0;
+}
+
+#footer .footer-links i:hover {
+    color: #e39631 !important;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.copyright{
+    color: white;
+}
